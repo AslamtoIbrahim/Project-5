@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.img{
+    width: 100%;
+    height: 60%;
+    border-radius: 12px;
+}
+
+.content{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 11px 0px;
+    justify-content: space-around;
+}
+
+.equilibrium{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.oureq{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.ethtime{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.ethDiv, .clockDiv{
+    display: flex;
+}
+
+.days, .eth{
+ margin-left: 5px;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+.days{
+    color: hsl(215, 51%, 70%);
+}
+
+.line{
+   background-color: hsl(215, 20%, 28%);
+   height: 1px;
+   width: 100%;
+}
+
+ 
+.creation{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid hsl(215, 68%, 79%);
+    margin-right: 10px;
+
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
+}
+
+.name span{
+    color:  hsl(215, 68%, 79%);
+}
+
+.attribution{
+    margin-top: 30px;
+}
