@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: hsl(217, 54%, 11%);
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-.container{
+.container {
     background-color: hsl(216, 50%, 16%);
     width: 350px;
     height: 600px;
@@ -26,13 +26,13 @@ body{
     padding: 20px;
 }
 
-.img{
+.img {
     width: 100%;
     height: 60%;
     border-radius: 12px;
 }
 
-.content{
+.content {
     height: 40%;
     display: flex;
     flex-direction: column;
@@ -41,53 +41,56 @@ body{
     justify-content: space-around;
 }
 
-.equilibrium{
+.equilibrium {
     color: hsl(0, 0%, 100%);
     font-weight: 600;
     font-size: 22px;
 }
 
-.oureq{
+.oureq {
     font-size: 18px;
     color: hsl(215, 51%, 70%);
 }
 
-.ethtime{
+.ethtime {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 }
 
-.ethDiv, .clockDiv{
+.ethDiv,
+.clockDiv {
     display: flex;
 }
 
-.days, .eth{
- margin-left: 5px;
+.days,
+.eth {
+    margin-left: 5px;
 }
 
-.eth{
+.eth {
     color: hsl(178, 100%, 50%);
 }
-.days{
+
+.days {
     color: hsl(215, 51%, 70%);
 }
 
-.line{
-   background-color: hsl(215, 20%, 28%);
-   height: 1px;
-   width: 100%;
+.line {
+    background-color: hsl(215, 20%, 28%);
+    height: 1px;
+    width: 100%;
 }
 
- 
-.creation{
+
+.creation {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.avatar{
+.avatar {
     width: 30px;
     height: 30px;
     border-radius: 100%;
@@ -96,14 +99,43 @@ body{
 
 }
 
-.name{
+.name {
     color: hsl(0, 0%, 100%);
 }
 
-.name span{
-    color:  hsl(215, 68%, 79%);
+.name span {
+    color: hsl(215, 68%, 79%);
 }
 
-.attribution{
+
+.attribution {
     margin-top: 30px;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 450px){
+    
+    body{
+        font-size: 90%;
+        width: 100%;
+    }
+    .container{
+        /* width: 100%; */
+        /* margin: 0px 5px; */
+    }
+
+    .equilibrium {
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    .attribution {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 12px;
+        color: white;
+    }
 }
