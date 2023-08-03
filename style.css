@@ -125,21 +125,19 @@ body {
 
 }
 
-.name {
-    color: hsl(0, 0%, 100%);
+.creat {
+    color: hsl(215, 68%, 79%);
     text-decoration: none;
 }
 
-.name span {
-    color: hsl(215, 68%, 79%);
-
+.name {
+    color: hsl(213, 24%, 91%);
+    text-decoration: none;
 }
-
 
 .attribution {
     margin-top: 30px;
     color: white;
-
 }
 
 .equilibrium:hover,
@@ -154,11 +152,6 @@ body {
     body {
         font-size: 90%;
         width: 100%;
-    }
-
-    .container {
-        /* width: 100%; */
-        /* margin: 0px 5px; */
     }
 
     .equilibrium {
